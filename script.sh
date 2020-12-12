@@ -1,3 +1,4 @@
+#! /bin/bash
 sudo yum install git -y
 /bin/bash -c "$(curl -fsSL https://github.com/gmurtaza24/SAMInstallation/blob/main/install.sh)"
 test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
