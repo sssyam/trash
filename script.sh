@@ -7,4 +7,5 @@ test -r ~/.bash_profile
 echo "eval $($(brew --prefix)/bin/brew shellenv)" >> ~/.bash_profile
 echo "eval $($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 brew tap aws/tap
+brew install gcc
 brew install aws-sam-cli
